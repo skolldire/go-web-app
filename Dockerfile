@@ -1,4 +1,4 @@
-ARG APP_NAME=go-web-app
+ENV APP_NAME=go-web-app
 
 FROM golang:1.24-alpine AS builder
 
